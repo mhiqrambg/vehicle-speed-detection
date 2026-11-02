@@ -1,0 +1,25 @@
+# venv + python
+.venv/
+__pycache__/
+*.pyc
+
+# model (auto-download via ultralytics)
+*.pt
+
+# video input + output
+*.mp4
+*.avi
+*.mov
+!test_30s.mp4
+
+# output data
+speeds_local.csv
+out_*.mp4
+
+# notebook + OS
+.ipynb_checkpoints/
+.DS_Store
+
+# credentials (dipakai notebook Colab saat runtime, jangan pernah commit)
+kaggle.json
+.env*
